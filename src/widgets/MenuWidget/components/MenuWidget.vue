@@ -7,7 +7,7 @@
       <router-link class="navigation__link" to="/">Home</router-link>
       <router-link class="navigation__link" to="/">Messages</router-link>
       <router-link class="navigation__link" to="/">Profile</router-link>
-      <router-link class="navigation__link" to="/">Friend</router-link>
+      <router-link class="navigation__link" to="/">Friends</router-link>
       <router-link class="navigation__link" to="/">Settings</router-link>
     </nav>
     <rounded-button class="create-post-button">Create post</rounded-button>
