@@ -1,13 +1,20 @@
 <template>
+<div class="container">
   <menu-widget></menu-widget>
-  <router-view />
+  <div class="main-content">
+    <header-widget :pageName='"Home"'></header-widget>
+    <router-view />
+  </div>
+</div>
+  
 </template>
 
 <script>
 import MenuWidget from "@/widgets/MenuWidget";
+import HeaderWidget from "@/widgets/HeaderWidget";
 
 export default {
-  components: { MenuWidget },
+  components: { MenuWidget, HeaderWidget },
 };
 </script>
 
@@ -22,5 +29,11 @@ export default {
 body {
   background: #000;
   font-family: "Montserrat", sans-serif;
+}
+.container {
+  display: flex;
+  .main-content {
+    width: 100%;
+  }
 }
 </style>
