@@ -4,7 +4,7 @@ import HomePage from '@/pages/HomePage'
 const routes = [
   {
     path: '/',
-    components: HomePage
+    component: HomePage
   }
 ]
 
