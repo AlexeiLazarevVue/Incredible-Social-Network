@@ -1,14 +1,16 @@
 <template>
   <div class="home-page">
+    <create-post-form></create-post-form>
     <posts-widget></posts-widget>
   </div>
 </template>
 
 <script>
+import CreatePostForm from '@/widgets/CreatePostForm';
 import PostsWidget from "@/widgets/PostsWidget";
 
 export default {
-  components: { PostsWidget },
+  components: { CreatePostForm, PostsWidget },
 };
 </script>
 
